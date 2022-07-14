@@ -7,11 +7,11 @@ import './index.css';
 // @Routes
 // Lazy loading doesn't seem to work.
 // Need to refresh the page to see the changes after navigating.
-import Home from './routes/home';
-import Journey from './routes/journey';
-import Projects from './routes/projects';
-import About from './routes/about';
-import ErrorRoute from './routes/error';
+import Home from './routes/Home';
+import Journey from './routes/Journey';
+import Projects from './routes/Projects';
+import About from './routes/About';
+import ErrorRoute from './routes/Error';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
