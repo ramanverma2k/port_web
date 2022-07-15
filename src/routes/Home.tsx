@@ -1,3 +1,4 @@
+import SocialLinks from '../components/SocialLinks';
 import style from './Home.module.css';
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
         <br />
         Come watch me fiddle around with Flutter, TypeScript, &amp; Go on Twitch.
       </p>
+      <SocialLinks />
     </main>
   );
 }
