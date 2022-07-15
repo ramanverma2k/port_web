@@ -2,15 +2,40 @@
 
 :root {
   font-family: 'Poppins', sans-serif, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  line-height: 2rem;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  /* Custom Colors */
+  /* GoLang */
+    --gopher-blue: #5DC9E2;
+    --gopher-aqua: #00A29C;
+    --gopher-gradient: linear-gradient(to right, #00A29C, #5DC9E2);
+
+    /* Flutter & Dart */
+    --flutter-skyBlue: #027DFD;
+    --flutter-green: #1CDAC5;
+    --flutter-gradient: linear-gradient(to right, #1CDAC5, #027DFD);
+
+    /* Rust */
+    --rust-orange: #FFA500;
+    --rust-red: #FF0000;
+    --rust-yellow: #FFFF00;
+    --rust-gradient: linear-gradient(to right, #FFA500, #FF0000, #FFFF00);
+
+    /* Typescript */
+    --ts-blue: #3178C6;
+    --ts-lightBlue: #358EF1;
+    --ts-gradient: linear-gradient(to right, #235A97, #358EF1);
+
+    /* Colors */
+    --primary-gradient: linear-gradient(to right, #00A29C, #5DC9E2);
+    --secondary-gradient: linear-gradient(to right, #1CDAC5, #027DFD);
+
 }
 
 body {
